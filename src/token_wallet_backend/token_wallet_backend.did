@@ -1,3 +1,5 @@
 service : {
-    "greet": (text) -> (text) query;
+  "send_tokens": (text, nat) -> (bool) query;
+  "receive_tokens": (nat) -> ();
+  "get_balance": () -> (nat) query;
 }
